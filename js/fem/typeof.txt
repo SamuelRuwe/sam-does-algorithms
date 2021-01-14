@@ -1,0 +1,13 @@
+All values returned from typeof operator are strings of an enum list
+None of them will be undefined or not a string
+
+1. undefined
+-- Does not currently have a value
+
+2. No type "array"
+-- array is a subtype of object
+
+use Array.isArray() for arrays
+
+undefined vs undeclared
+
